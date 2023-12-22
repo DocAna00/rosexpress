@@ -1,0 +1,215 @@
+.hero {
+  margin-bottom: 104px;
+}
+
+.hero__container {
+  padding-top: 79px;
+  background-image: url("../img/hero.webp");
+  background-repeat: no-repeat;
+  background-position-y: -100px;
+}
+
+.hero__heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: "Oranienbaum";
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 120%;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+}
+
+.hero__heading-top {
+  color: #f0d683;
+}
+
+.hero__heading-small {
+  margin-top: 0;
+  margin-bottom: 37px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero__heading-small-top {
+  font-weight: 700;
+  color: #f0d683;
+}
+
+.hero__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 263px;
+  min-height: 68px;
+  margin-right: auto;
+  margin-bottom: 16px;
+  margin-left: auto;
+  border-radius: 10px;
+  font-family: "Oranienbaum";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  color: #000000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #67310a -108.98%, #f0d683 129.77%);
+  cursor: pointer;
+}
+
+.hero__button:hover {
+  background: linear-gradient(0deg, #f0d683 0%, #f0d683 100%);
+}
+
+.hero__button-wrap {
+  padding: 18px 32px;
+  border: 1px solid #9f734c;
+  border-radius: 8px;
+}
+
+.hero__text {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero__button-wrapper {
+  width: 480px;
+  margin-right: auto;
+  margin-bottom: 49px;
+  margin-left: auto;
+  background-image: url("../img/arrow-left.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.hero__picture {
+  position: relative;
+  z-index: 2;
+}
+
+.hero__information {
+  padding: 7px 11px;
+  border-radius: 41px;
+  background: #010e0f;
+}
+
+.hero__information-list {
+  display: flex;
+  padding-top: 37px;
+  padding-right: 38px;
+  padding-bottom: 40px;
+  padding-left: 38px;
+  border: 2px solid #9f734c;
+  border-radius: 35px;
+
+  gap: 71px;
+}
+
+.hero__list-item {
+  max-width: 224px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero__list-item-number {
+  font-family: "Oranienbaum";
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 120%;
+  color: #f0d683;
+  letter-spacing: 4px;
+}
+
+.hero__list-item-text {
+  position: relative;
+  top: -9px;
+}
+
+.hero__article-name {
+  display: none;
+}
+
+.hero__article-small {
+  position: absolute;
+  top: 415px;
+  display: flex;
+  align-items: center;
+  width: 260px;
+  height: 120px;
+  padding-top: 23px;
+  padding-right: 13px;
+  padding-bottom: 26px;
+  padding-left: 26px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #ffffff;
+  background: linear-gradient(180deg, #062b2e 0%, #17868d 50.52%, #17868d 100%);
+
+  gap: 24px;
+}
+
+.hero__article-small-wrapper {
+  margin: 0;
+}
+
+.hero__article-small svg {
+  flex-shrink: 0;
+  width: 68px;
+  height: 68px;
+  cursor: pointer;
+}
+
+.hero__article-small-text {
+  font-weight: 700;
+}
+
+.hero__article-wrap {
+  position: relative;
+}
+
+.hero__article-big {
+  position: absolute;
+  right: 0;
+  bottom: 63%;
+  width: 274px;
+  height: 372px;
+  padding-top: 61px;
+  padding-right: 42px;
+  padding-left: 46px;
+  border: 2px solid #9f734c;
+  border-radius: 20px;
+  background: linear-gradient(348deg, rgba(240, 214, 131, .50) 6.97%, rgba(123, 63, 10, .50) 95.39%);
+}
+
+.hero__article-big-wrapper {
+  max-width: 174px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero__article-big-text {
+  font-weight: 700;
+  color: #f0d683;
+}
+
+.top {
+  margin-bottom: 28px;
+}

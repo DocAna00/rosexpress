@@ -1,0 +1,214 @@
+.services__container {
+  padding-top: 22px;
+}
+
+.services__heading {
+  margin-bottom: 9px;
+  padding-right: 33px;
+  font-family: "Oranienbaum";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.services__heading-left {
+  color: #f0d683;
+}
+
+.services__text {
+  margin-top: 0;
+  margin-bottom: 39px;
+  padding-right: 33px;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 130%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.services__text-big {
+  font-weight: 700;
+  color: #f0d683;
+}
+
+.services__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__list-item-number::before {
+  content: url("../img/green-dot.svg");
+  position: relative;
+  left: 4px;
+}
+
+.services__list-item-number {
+  position: relative;
+  left: -24px;
+  display: flex;
+  height: 57px;
+  font-family: "Oranienbaum";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #f0d683;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.services__list-item-text {
+  max-width: 350px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #d9d9d9;
+}
+
+.services__list-item-heading {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.services__list-item:not(:last-child) {
+  margin-bottom: 71px;
+}
+
+.services__list-item:nth-child(2) {
+  margin-bottom: 98px;
+}
+
+.services__list-item--right:nth-child(1) {
+  margin-bottom: 96px;
+}
+
+.services__list-item--right {
+  text-align: right;
+}
+
+.services__picture-wrap {
+  align-items: center;
+}
+
+.services__picture {
+  position: relative;
+  right: 17px;
+  bottom: 114px;
+  width: 106%;
+  max-width: 863px;
+  height: 100%;
+  max-height: 863px;
+}
+
+.services__list-number-right {
+  position: relative;
+  left: 24px;
+  display: flex;
+  justify-content: flex-end;
+  height: 57px;
+  font-family: "Oranienbaum";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #f0d683;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.services__list-number-right::after {
+  content: url("../img/green-dot.svg");
+  position: relative;
+  right: 6px;
+}
+
+.services__item-wrap {
+  position: relative;
+  display: flex;
+}
+
+.services__item-svg-1 {
+  position: absolute;
+  top: 21px;
+  left: 96px;
+  width: 120%;
+  max-width: 384px;
+}
+
+.services__item-svg-2 {
+  position: absolute;
+  top: 21px;
+  left: 96px;
+  width: 120%;
+  max-width: 384px;
+}
+
+.services__item-svg-3 {
+  position: absolute;
+  top: 21px;
+  left: 96px;
+  width: 120%;
+  max-width: 384px;
+}
+
+.services__item-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.services__item-svg-4 {
+  position: absolute;
+  top: 21px;
+  right: 96px;
+  width: 120%;
+  max-width: 384px;
+}
+
+.services__item-svg-5 {
+  position: absolute;
+  top: 21px;
+  right: 96px;
+  width: 120%;
+  max-width: 384px;
+}
+
+.services__button {
+  position: relative;
+  top: 77px;
+  left: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 263px;
+  min-height: 68px;
+  margin: 0;
+  border-radius: 10px;
+  font-family: "Oranienbaum";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  color: #000000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #67310a -108.98%, #f0d683 129.77%);
+  cursor: pointer;
+}
+
+.services__button:hover {
+  background: linear-gradient(0deg, #f0d683 0%, #f0d683 100%);
+}
+
+.services__button-wrap {
+  padding: 18px 32px;
+  border: 1px solid #9f734c;
+  border-radius: 8px;
+}

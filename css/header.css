@@ -1,0 +1,111 @@
+.header {
+  padding-top: 23px;
+  padding-bottom: 22px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.header__logo {
+  display: flex;
+  margin-right: 25px;
+}
+
+.header__logo-image {
+  flex-shrink: 0;
+  min-width: 199px;
+  min-height: 51px;
+}
+
+.header__text {
+  max-width: 199px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #e5c97b;
+}
+
+.header__email {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__email-name {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #767676;
+}
+
+.header__email-address {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #f0d683;
+  text-decoration: underline dotted;
+
+  text-underline-offset: 7px;
+}
+
+.header__socials {
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.header__social-link svg {
+  flex-shrink: 0;
+  min-width: 40px;
+  min-height: 40px;
+  transition: fill .6s;
+}
+
+.header__social-link svg:hover {
+  fill: #3d3d3d;
+}
+
+.header__phone {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.header__phone-number {
+  margin-bottom: -3px;
+  font-family: "Oranienbaum";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.header__phone-call {
+  padding-left: 35px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #f0d683;
+  text-decoration: underline dotted;
+  cursor: pointer;
+
+  text-underline-offset: 7px;
+}
+
+.header__links {
+  display: flex;
+  padding-bottom: 10px;
+
+  gap: 74px;
+}

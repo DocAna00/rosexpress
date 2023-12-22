@@ -1,0 +1,136 @@
+.about {
+  margin-bottom: 100px;
+}
+
+.about__container {
+  position: relative;
+}
+
+.about__image {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+
+.about__heading {
+  margin: 0;
+  margin-bottom: 44px;
+  font-family: "Oranienbaum";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.about__heading-top {
+  color: #ecd180;
+}
+
+.about__list-wrap {
+  position: relative;
+  max-width: 556px;
+  min-height: 767px;
+  padding-top: 32px;
+  padding-right: 39px;
+  padding-bottom: 32px;
+  padding-left: 34px;
+  border-radius: 41px;
+  background: #3d3d3d;
+}
+
+.about__list-wrap--right {
+  position: relative;
+  max-width: 566px;
+  border-radius: 25px;
+  background: #ffffff;
+}
+
+.about__list-heading {
+  max-width: 444px;
+  margin: 0;
+  margin-bottom: 35px;
+  padding-left: 34px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.about__list-item {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.about__list-item:not(:last-child) {
+  margin-bottom: 21px;
+}
+
+.about__list-item::before {
+  content: url("../img/cancel.svg");
+  flex-shrink: 0;
+  margin-right: 11px;
+}
+
+.about__content {
+  display: flex;
+  padding-left: 130px;
+
+  gap: 124px;
+}
+
+.about__list-heading--right {
+  color: #333333;
+}
+
+.about__list-item--right {
+  color: #333333;
+}
+
+.about__list-item--right::before {
+  content: url("../img/check.svg");
+  flex-shrink: 0;
+  margin-right: 11px;
+}
+
+.about__help {
+  position: relative;
+  z-index: 3;
+  bottom: 11px;
+  left: 546px;
+  display: flex;
+  align-items: center;
+  max-width: 413px;
+  padding-top: 31px;
+  padding-right: 29px;
+  padding-bottom: 28px;
+  padding-left: 33px;
+  border-radius: 200px;
+  background: #ffffff;
+}
+
+.about__help-text {
+  max-width: 223px;
+  margin-top: 0;
+  margin-right: 23px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 130%;
+  color: #333333;
+}
+
+.about__social-link:not(:last-child) {
+  margin-right: 20px;
+}
+
+.about__article-name {
+  display: none;
+}
